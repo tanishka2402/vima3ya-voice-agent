@@ -1,0 +1,153 @@
+[
+  {
+    "id": "paneer-tikka",
+    "name": "Paneer Tikka",
+    "aliases": ["paneer tikka", "paneer"],
+    "category": "starter",
+    "price": 220,
+    "description": "Chargrilled cottage cheese cubes marinated in spiced yogurt.",
+    "available": true,
+    "tags": { "spicy": true, "vegan": false, "vegetarian": true, "glutenFree": true }
+  },
+  {
+    "id": "chicken-65",
+    "name": "Chicken 65",
+    "aliases": ["chicken 65", "chicken sixty five"],
+    "category": "starter",
+    "price": 260,
+    "description": "Deep-fried spicy chicken bites tossed in curry leaves and chili.",
+    "available": true,
+    "tags": { "spicy": true, "vegan": false, "vegetarian": false, "glutenFree": true }
+  },
+  {
+    "id": "veg-spring-rolls",
+    "name": "Vegetable Spring Rolls",
+    "aliases": ["spring rolls", "veg spring rolls", "vegetable spring rolls"],
+    "category": "starter",
+    "price": 180,
+    "description": "Crispy rolls stuffed with cabbage, carrot and glass noodles.",
+    "available": true,
+    "tags": { "spicy": false, "vegan": true, "vegetarian": true, "glutenFree": false }
+  },
+  {
+    "id": "fries",
+    "name": "French Fries",
+    "aliases": ["fries", "french fries", "chips"],
+    "category": "starter",
+    "price": 140,
+    "description": "Crispy salted potato fries served with ketchup.",
+    "available": true,
+    "tags": { "spicy": false, "vegan": true, "vegetarian": true, "glutenFree": true }
+  },
+  {
+    "id": "tikka-masala",
+    "name": "Tikka Masala",
+    "aliases": ["tikka masala", "chicken tikka masala"],
+    "category": "main",
+    "price": 340,
+    "description": "Grilled chicken chunks simmered in a rich, mildly spicy tomato-cream gravy.",
+    "available": true,
+    "tags": { "spicy": true, "vegan": false, "vegetarian": false, "glutenFree": true }
+  },
+  {
+    "id": "dal-makhani",
+    "name": "Dal Makhani",
+    "aliases": ["dal makhani", "dal", "daal makhani"],
+    "category": "main",
+    "price": 260,
+    "description": "Black lentils and kidney beans slow-cooked with butter and cream.",
+    "available": true,
+    "tags": { "spicy": false, "vegan": false, "vegetarian": true, "glutenFree": true }
+  },
+  {
+    "id": "veg-biryani",
+    "name": "Vegetable Biryani",
+    "aliases": ["veg biryani", "vegetable biryani"],
+    "category": "main",
+    "price": 300,
+    "description": "Basmati rice layered with spiced mixed vegetables, served with raita.",
+    "available": true,
+    "limitedQuantity": true,
+    "tags": { "spicy": true, "vegan": false, "vegetarian": true, "glutenFree": true }
+  },
+  {
+    "id": "mutton-rogan-josh",
+    "name": "Mutton Rogan Josh",
+    "aliases": ["mutton rogan josh", "rogan josh", "mutton"],
+    "category": "main",
+    "price": 420,
+    "description": "Slow-braised mutton curry in a Kashmiri red chili gravy.",
+    "available": false,
+    "tags": { "spicy": true, "vegan": false, "vegetarian": false, "glutenFree": true }
+  },
+  {
+    "id": "veg-thali",
+    "name": "Vegan Buddha Bowl",
+    "aliases": ["buddha bowl", "vegan bowl", "vegan buddha bowl"],
+    "category": "main",
+    "price": 310,
+    "description": "Quinoa, roasted chickpeas, greens and tahini dressing, fully plant-based.",
+    "available": true,
+    "tags": { "spicy": false, "vegan": true, "vegetarian": true, "glutenFree": true }
+  },
+  {
+    "id": "coke",
+    "name": "Coca-Cola",
+    "aliases": ["coke", "coca cola", "cola"],
+    "category": "drink",
+    "price": 80,
+    "description": "Chilled 300ml Coca-Cola.",
+    "available": true,
+    "tags": { "spicy": false, "vegan": true, "vegetarian": true, "glutenFree": true }
+  },
+  {
+    "id": "mango-lassi",
+    "name": "Mango Lassi",
+    "aliases": ["mango lassi", "lassi"],
+    "category": "drink",
+    "price": 120,
+    "description": "Yogurt-based mango smoothie, lightly sweetened.",
+    "available": true,
+    "tags": { "spicy": false, "vegan": false, "vegetarian": true, "glutenFree": true }
+  },
+  {
+    "id": "masala-chai",
+    "name": "Masala Chai",
+    "aliases": ["chai", "masala chai", "tea"],
+    "category": "drink",
+    "price": 60,
+    "description": "Spiced Indian tea brewed with milk and cardamom.",
+    "available": true,
+    "tags": { "spicy": false, "vegan": false, "vegetarian": true, "glutenFree": true }
+  },
+  {
+    "id": "gulab-jamun",
+    "name": "Gulab Jamun",
+    "aliases": ["gulab jamun"],
+    "category": "dessert",
+    "price": 130,
+    "description": "Soft milk-solid dumplings soaked in rose-cardamom syrup.",
+    "available": true,
+    "tags": { "spicy": false, "vegan": false, "vegetarian": true, "glutenFree": true }
+  },
+  {
+    "id": "fruit-sorbet",
+    "name": "Seasonal Fruit Sorbet",
+    "aliases": ["sorbet", "fruit sorbet"],
+    "category": "dessert",
+    "price": 150,
+    "description": "Dairy-free sorbet made with seasonal fruit puree.",
+    "available": true,
+    "tags": { "spicy": false, "vegan": true, "vegetarian": true, "glutenFree": true }
+  },
+  {
+    "id": "chocolate-brownie",
+    "name": "Chocolate Brownie",
+    "aliases": ["brownie", "chocolate brownie"],
+    "category": "dessert",
+    "price": 170,
+    "description": "Warm fudge brownie served with vanilla ice cream.",
+    "available": false,
+    "tags": { "spicy": false, "vegan": false, "vegetarian": true, "glutenFree": false }
+  }
+]

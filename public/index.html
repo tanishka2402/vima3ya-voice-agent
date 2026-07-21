@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Vima3ya Table Service — Steward</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="room">
+    <header class="room__header">
+      <div class="room__mark">V3</div>
+      <div class="room__heading">
+        <span class="room__eyebrow">Vima3ya &middot; Table 4</span>
+        <h1>Your steward is listening</h1>
+      </div>
+      <button id="resetBtn" class="reset-btn" title="Start a new table">New table</button>
+    </header>
+
+    <main class="hall">
+      <section class="conversation" aria-label="Conversation with steward">
+        <div id="chat" class="chat"></div>
+
+        <div class="quickbar" id="quickbar">
+          <button class="chip" data-text="What's on the menu?">What's on the menu?</button>
+          <button class="chip" data-text="Can you recommend something?">Recommend something</button>
+          <button class="chip" data-text="Do you have anything vegan?">Anything vegan?</button>
+          <button class="chip" data-text="What's my order so far?">Order summary</button>
+        </div>
+
+        <form id="composer" class="composer" autocomplete="off">
+          <input id="input" type="text" placeholder="Tell the steward what you'd like…" aria-label="Message" />
+          <button type="submit" class="send-btn">Send</button>
+        </form>
+      </section>
+
+      <aside class="ticket-wrap" aria-label="Order ticket">
+        <div class="ticket">
+          <div class="ticket__perf" aria-hidden="true"></div>
+          <div class="ticket__body">
+            <div class="ticket__head">
+              <span class="ticket__restaurant">VIMA3YA</span>
+              <span class="ticket__sub">TABLE SERVICE CHIT</span>
+              <span class="ticket__meta" id="ticketMeta">TABLE 04</span>
+            </div>
+            <div class="ticket__rule"></div>
+            <div id="ticketLines" class="ticket__lines">
+              <p class="ticket__empty">No items yet — order something to start the ticket.</p>
+            </div>
+            <div class="ticket__rule"></div>
+            <div class="ticket__total-row">
+              <span>TOTAL</span>
+              <span id="ticketTotal">₹0</span>
+            </div>
+            <p class="ticket__foot">THANK YOU FOR DINING WITH US</p>
+          </div>
+          <div class="ticket__tear" aria-hidden="true"></div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
